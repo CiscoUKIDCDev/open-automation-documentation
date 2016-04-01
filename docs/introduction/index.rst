@@ -4,7 +4,7 @@ Introduction
 
 What is UCS Director?
 ---------------------
-UCS Director is a tool to help you automate your data centre infrastructure (`Cisco Website <http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-director/index.html>`). It abstracts hardware and software into programmable tasks that are assembled together to provision infrastructure across computing, networking and storage resources that reside on multiple hypervisor. The busines value is;
+UCS Director is a tool to help you automate your data centre infrastructure (`Cisco Website <http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-director/index.html>`_). It abstracts hardware and software into programmable tasks that are assembled together to provision infrastructure across computing, networking and storage resources that reside on multiple hypervisor. The busines value is;
 * Simplified infrastrucitre provisioning and managment that takes munites rather than weeks
 * Pyhsical, virtaul and multi-vendor management from a single place to accomodate heterogeneous data centres
 * Increased IT agility allowing IT to have greater impact on the effectiveness of the business.
