@@ -1,6 +1,9 @@
 Welcome to Open Automation's documentation!
 ===========================================
 
+.. note:: These pages are being built up at the moment and not complete.
+
+
 UCS Director is ....
 
 Southbound and North bound details of UCS Director .....
@@ -10,13 +13,6 @@ This guide was created to help with developing a custom Open Automation plugin f
 The code is open source, and available on `github`_.
 
 The main documentation for the site is organized into a couple sections:
-
-* :ref:`intro-docs`
-* :ref:`compoenents-docs`
-* :ref:`dev-docs`
-* :ref:`example-docs`
-* :ref:`about-docs`
-
 
 .. _intro-doc:
 
@@ -79,7 +75,7 @@ The main documentation for the site is organized into a couple sections:
 
 .. toctree::
    :maxdepth: 2
-   :caption: About Read the Docs
+   :caption: About Us
 
    open-source-philosophy
    sponsors
