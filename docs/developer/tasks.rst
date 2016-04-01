@@ -16,7 +16,9 @@ You will also need to add the task classes to the main module
 
 dikb
 
-``@PersistenceCapable(detachable = "true", table = "spark_dummy")
+.. code-block:: java
+
+@PersistenceCapable(detachable = "true", table = "spark_dummy")
 public class SparkDummyConfig implements TaskConfigIf {
 
 	public static final String displayLabel = "Spark Get Inventory";
@@ -38,8 +40,11 @@ public class SparkDummyConfig implements TaskConfigIf {
 	@FormField(label = "Password", help = "Password", mandatory = true, type = FormFieldDefinition.FIELD_TYPE_PASSWORD)
 	@UserInputField(type = SparkConstants.PASSWORD)
 	@Persistent
-	private String	password;``
+	private String	password;
 
+
+
+some other text.
 
 <name>Data.java
 ----------------
