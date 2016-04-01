@@ -18,13 +18,13 @@ Information about development is also available:
 * :ref:`ops-docs`
 
 
-.. _user-docs:
+.. _intro:
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Documentation
+   :caption: Introduction
 
-   getting_started
+   getting_started/index
    versions
    builds
    features
@@ -33,13 +33,14 @@ Information about development is also available:
    yaml-config
 
 
-.. _feature-docs:
+.. _components-doc:
 
 .. toctree::
    :maxdepth: 2
    :glob:
-   :caption: Feature Documentation
+   :caption: Components
 
+   components/index
    webhooks
    badges
    alternate_domains
@@ -72,30 +73,15 @@ Information about development is also available:
    i18n
    issue-labels
 
-.. _business-docs:
+.. _examples-doc:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Business Documentation
+   :caption: Examples
 
-   business/index
+   examples/index
 
-.. _custom-docs:
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Custom Install Documentation
-
-   custom_installs/index
-
-.. _design-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Designer Documentation
-
-   design
-   theme
 
 
 .. _about-docs:
@@ -107,12 +93,5 @@ Information about development is also available:
    open-source-philosophy
    sponsors
    talks
-
-
-.. _ops-docs:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Operations Documentation
 
    rtfd
