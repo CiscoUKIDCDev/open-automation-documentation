@@ -49,12 +49,67 @@ some other text.
 <name>Data.java
 ----------------
 
+.. code-block:: java
 
+    public class SparkDummyTask extends AbstractTask {
+
+    	private static Logger logger = Logger.getLogger( SparkDummyTask.class );
+
+    	@Override
+    	public void executeCustomAction(CustomActionTriggerContext context,
+    			CustomActionLogger actionLogger) throws Exception {
+    		SparkDummyConfig config = (SparkDummyConfig) context.loadConfigObject();
+
+    		String username = config.getUsername();
+    		String password = config.getPassword();
+    		String ipAddress = config.getIpAddress();
+
+    		String arrayName = "";
+
+
+    	/* Code */
+    	}
+
+    	@Override
+    	public TaskConfigIf getTaskConfigImplementation() {
+    		return new SparkDummyConfig();
+    	}
+
+    	@Override
+    	public String getTaskName() {
+    		return SparkDummyConfig.displayLabel;
+    	}
+
+    	@Override
+    	public TaskOutputDefinition[] getTaskOutputDefinitions() {
+    		return null;
+    	}
+    }
 
 
 jdo.files
 ----------
 
+.. code-block:: java
+
+    //Each package with config classes should have a file called jdo.files
+    //Each config class should be listed in the format below
+    //This file informs the build file which classes need to go through JDO enhancement
+    +SparkDummyConfig
 
 Main Module
 ------------
+
+.. code-block:: java
+
+    @Override
+    	public AbstractTask[] getTasks() {
+    		AbstractTask task1   = new SparkDummyTask();
+    		AbstractTask task2   = new SparkMessageCreateTask();
+
+    		AbstractTask[] tasks = new AbstractTask[2];
+    		tasks[0]  = task1;
+    		tasks[1]  = task2;
+
+    		return tasks;
+    	}
