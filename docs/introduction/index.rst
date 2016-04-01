@@ -42,6 +42,7 @@ The Southbound access, communication to infrastruitre, can be achieved by one of
 The built-in connectors are the devices that are supported out of the box. These suported devices have automation tasks prebuilt and tested by Cisco. The official list of infrastructure supported by UCS Director is `here <http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-device-support-tables-list.html>`_.
 
 Supported vendors;
+
 .. image:: UCSD_Support.png
 
 Powershell support is via a powershell agenet and allos interaction with the underlying infrastrutre using powersehll functionality.
