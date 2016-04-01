@@ -1,6 +1,11 @@
 UCS Director Open Automation Community Guide
 ============================================
 
+.. image:: https://readthedocs.org/projects/ucs-director-open-automation/badge/?version=latest
+:target: http://ucs-director-open-automation.readthedocs.org/en/latest/?badge=latest
+:alt: Documentation Status
+
+
 |build-status| |docs|
 
 Purpose

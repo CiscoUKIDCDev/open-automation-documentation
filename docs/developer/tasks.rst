@@ -11,10 +11,10 @@ The jdo.files will also need to be created/updated.
 You will also need to add the task classes to the main module
 
 
-<name>Config.java
+Config.java
 -----------------
 
-dikb
+
 
 .. code-block:: java
 
@@ -44,9 +44,8 @@ dikb
 
 
 
-some other text.
 
-<name>Data.java
+Data.java
 ----------------
 
 .. code-block:: java
