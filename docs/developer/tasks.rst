@@ -17,30 +17,29 @@ You will also need to add the task classes to the main module
 dikb
 
 .. code-block:: java
+    @PersistenceCapable(detachable = "true", table = "spark_dummy")
+    public class SparkDummyConfig implements TaskConfigIf {
 
-@PersistenceCapable(detachable = "true", table = "spark_dummy")
-public class SparkDummyConfig implements TaskConfigIf {
+    	public static final String displayLabel = "Spark Get Inventory";
+    	@Persistent
+    	private long configEntryId;
+    	@Persistent
+    	private long actionId;
 
-	public static final String displayLabel = "Spark Get Inventory";
-	@Persistent
-	private long configEntryId;
-	@Persistent
-	private long actionId;
+    	@FormField(label = "Spark Array IP", help = "spark Array IP Address", mandatory = true)
+    	@UserInputField(type = WorkflowInputFieldTypeDeclaration.IPADDRESS)
+    	@Persistent
+    	private String	ipAddress = "";
 
-	@FormField(label = "Spark Array IP", help = "spark Array IP Address", mandatory = true)
-	@UserInputField(type = WorkflowInputFieldTypeDeclaration.IPADDRESS)
-	@Persistent
-	private String	ipAddress = "";
+    	@FormField(label = "Spark Username", help = "spark username", mandatory = true, type = FormFieldDefinition.FIELD_TYPE_TEXT)
+    	@UserInputField(type = SparkConstants.GENERIC_TEXT_INPUT)
+    	@Persistent
+    	private String	username;
 
-	@FormField(label = "Spark Username", help = "spark username", mandatory = true, type = FormFieldDefinition.FIELD_TYPE_TEXT)
-	@UserInputField(type = SparkConstants.GENERIC_TEXT_INPUT)
-	@Persistent
-	private String	username;
-
-	@FormField(label = "Password", help = "Password", mandatory = true, type = FormFieldDefinition.FIELD_TYPE_PASSWORD)
-	@UserInputField(type = SparkConstants.PASSWORD)
-	@Persistent
-	private String	password;
+    	@FormField(label = "Password", help = "Password", mandatory = true, type = FormFieldDefinition.FIELD_TYPE_PASSWORD)
+    	@UserInputField(type = SparkConstants.PASSWORD)
+    	@Persistent
+    	private String	password;
 
 
 
