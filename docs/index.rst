@@ -1,44 +1,38 @@
 Welcome to Open Automation's documentation!
 ===========================================
 
-blah blah
+UCS Director is ....
 
-The code is open source, and `available on github`_.
+Southbound and North bound details of UCS Director .....
+
+This guide was created to help with developing a custom Open Automation plugin for UCS Director. It is not an official Cisco guide however deep knowledge of the products, using official documentation and utilising resources availble to the authors this has been put together. Hopfully it will help on your journy and if you have feedback please get in touch or even make updates yourself and make a pull request.
+
+The code is open source, and available on `github`_.
 
 The main documentation for the site is organized into a couple sections:
 
-* :ref:`user-docs`
-* :ref:`feature-docs`
+* :ref:`intro-docs`
+* :ref:`compoenents-docs`
+* :ref:`dev-docs`
+* :ref:`example-docs`
 * :ref:`about-docs`
 
-Information about development is also available:
 
-* :ref:`dev-docs`
-* :ref:`design-docs`
-* :ref:`ops-docs`
-
-
-.. _intro:
+.. _intro-doc:
 
 .. toctree::
    :maxdepth: 2
    :caption: Introduction
 
-   getting_started/index
-   versions
-   builds
-   features
-   support
-   faq
-   yaml-config
-
+   introduction/index
+   introduction/getting_started
 
 .. _components-doc:
 
 .. toctree::
    :maxdepth: 2
    :glob:
-   :caption: Components
+   :caption: Components Description
 
    components/index
    webhooks
@@ -80,9 +74,6 @@ Information about development is also available:
    :caption: Examples
 
    examples/index
-
-
-
 
 .. _about-docs:
 
