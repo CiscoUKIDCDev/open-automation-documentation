@@ -17,6 +17,7 @@ You will also need to add the task classes to the main module
 dikb
 
 .. code-block:: java
+
     @PersistenceCapable(detachable = "true", table = "spark_dummy")
     public class SparkDummyConfig implements TaskConfigIf {
 
