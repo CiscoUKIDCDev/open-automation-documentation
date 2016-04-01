@@ -32,6 +32,9 @@ The documentation for the site is organized into the following sections:
    :caption: Developer Documentation
 
    developer/index
+   developer/account
+   developer/tasks
+   developer/reports
 
 .. _examples-doc:
 

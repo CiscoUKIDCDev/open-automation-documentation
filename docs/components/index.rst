@@ -1,8 +1,12 @@
 Architecture
 ============
 
-Explain the arhc of the plugin
+Explain the arhitecture of the plugin
+
     * Account
     * Tasks
+    * Reports
     * Cloudsense
+    * Pod Defintions
+    * Resources
     * etc.

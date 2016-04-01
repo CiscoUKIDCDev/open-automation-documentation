@@ -39,14 +39,14 @@ The Southbound access, communication to infrastruitre, can be achieved by one of
 
 .. image:: UCSD_northbound_and_southbound.png
 
-The built-in connectors are the devices that are supported out of the box. These suported devices have automation tasks prebuilt and tested by Cisco. The official list of infrastructure supported by UCS Director is here - http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-device-support-tables-list.html.
+The built-in connectors are the devices that are supported out of the box. These suported devices have automation tasks prebuilt and tested by Cisco. The official list of infrastructure supported by UCS Director is `here - <http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-device-support-tables-list.html>`_.
 
 Supported vendors;
 .. image:: UCSD_Support.png
 
 Powershell support is via a powershell agenet and allos interaction with the underlying infrastrutre using powersehll functionality.
 
-The CloupaScript framework allows you to create custom task (based around JavaScript) to interact with manged devices or it could be expanded to interacte with thinsg that are not managed in UCS Director. These taks are quick ways to expand the capbilities of UCS Director and many examples can be found on the Cisco Communities site - https://communities.cisco.com/docs/DOC-56419.
+The CloupaScript framework allows you to create custom task (based around JavaScript) to interact with manged devices or it could be expanded to interacte with thinsg that are not managed in UCS Director. These taks are quick ways to expand the capbilities of UCS Director and many examples can be found on the `Cisco Communities site < https://communities.cisco.com/docs/DOC-56419>`_.
 
 
 What is Open Automation?
