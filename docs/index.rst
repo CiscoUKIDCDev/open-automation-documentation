@@ -31,19 +31,6 @@ The main documentation for the site is organized into a couple sections:
    :caption: Components Description
 
    components/index
-   webhooks
-   badges
-   alternate_domains
-   localization
-   vcs
-   conda
-   canonical
-   single_version
-   privacy
-   user-defined-redirects
-   automatic-redirects
-   features/*
-
 
 .. _dev-docs:
 
@@ -51,17 +38,7 @@ The main documentation for the site is organized into a couple sections:
    :maxdepth: 2
    :caption: Developer Documentation
 
-   install
-   changelog
-   contribute
-   tests
-   architecture
-   development/standards
-   development/buildenvironments
-   symlinks
-   settings
-   i18n
-   issue-labels
+   developer/index
 
 .. _examples-doc:
 
@@ -77,8 +54,6 @@ The main documentation for the site is organized into a couple sections:
    :maxdepth: 2
    :caption: About Us
 
-   open-source-philosophy
-   sponsors
-   talks
+   about/index
 
    rtfd
