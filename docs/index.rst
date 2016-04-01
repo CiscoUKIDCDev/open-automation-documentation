@@ -6,7 +6,22 @@ Welcome to Open Automation's documentation!
 
 UCS Director is ....
 
+.. image:: UCSD_Overview.png
+
 Southbound and North bound details of UCS Director .....
+
+.. image:: UCSD_northbound_and_southbound.png
+
+Examples of customisation can be found on the Cisco Communities site - https://communities.cisco.com/docs/DOC-56419
+
+Supported vendors
+
+.. image:: UCSD_Support.png
+
+
+The official list of infrastructure supported by UCS Director is here -
+http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-device-support-tables-list.html
+
 
 This guide was created to help with developing a custom Open Automation plugin for UCS Director. It is not an official Cisco guide however deep knowledge of the products, using official documentation and utilising resources availble to the authors this has been put together. Hopfully it will help on your journy and if you have feedback please get in touch or even make updates yourself and make a pull request.
 
