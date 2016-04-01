@@ -5,6 +5,7 @@ Introduction
 What is UCS Director?
 ---------------------
 UCS Director is a tool to help you automate your data centre infrastructure (`Cisco Website <http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-director/index.html>`_). It abstracts hardware and software into programmable tasks that are assembled together to provision infrastructure across computing, networking and storage resources that reside on multiple hypervisor. The busines value is;
+
 * Simplified infrastrucitre provisioning and managment that takes munites rather than weeks
 * Pyhsical, virtaul and multi-vendor management from a single place to accomodate heterogeneous data centres
 * Increased IT agility allowing IT to have greater impact on the effectiveness of the business.
@@ -14,6 +15,7 @@ The following image summarises the functionality of UCS Director;
 .. image:: UCSD_Overview.png
 
 The main call out feature are;
+
 * Tasks and workflows - more than 2200 out of the box tasks (about 2400 person days of effort), these can be used to configure workflows that combine usful tasks into a single goal.
 * Bare Metal - Assist with the provision and configuration of bare metal (PXE)
 * LIfecycle Management - manage day to day tasks of the entire infrastruitre from a single place
@@ -22,12 +24,14 @@ The main call out feature are;
 * Showback/chargeback - Tracks the usage of infrastructure resources to showback usage for groups (or extracted for billing engines)
 
 It is possible to interact with UCS Director in multiple ways;
+
 * Southbound
 * Northbound
 
 Access Northbound, access to the UCSD functioanlity, can be via the web GUI, RestAPI or Powershell Cmdlets (uses the RestAPI).
 
 The Southbound access, communication to infrastruitre, can be achieved by one of these mechanisms;
+
 * Built-in Connectors
 * Powershell
 * CloupiaScript
