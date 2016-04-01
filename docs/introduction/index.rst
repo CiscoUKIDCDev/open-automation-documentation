@@ -46,7 +46,7 @@ Supported vendors;
 
 Powershell support is via a powershell agenet and allos interaction with the underlying infrastrutre using powersehll functionality.
 
-The CloupaScript framework allows you to create custom task (based around JavaScript) to interact with manged devices or it could be expanded to interacte with thinsg that are not managed in UCS Director. These taks are quick ways to expand the capbilities of UCS Director and many examples can be found on the Cisco Communities `site < https://communities.cisco.com/docs/DOC-56419>`_.
+The CloupaScript framework allows you to create custom task (based around JavaScript) to interact with manged devices or it could be expanded to interacte with thinsg that are not managed in UCS Director. These taks are quick ways to expand the capbilities of UCS Director and many examples can be found on the Cisco Communities `site < http://communities.cisco.com/docs/DOC-56419>`_.
 
 
 What is Open Automation?
