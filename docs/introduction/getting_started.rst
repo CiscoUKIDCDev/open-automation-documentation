@@ -42,7 +42,7 @@ The first is the sample, or dummy, open automation code while the second is the 
 
 If you unzip and browse the 'sample' zip you should see something similar to this;
 
-.. image:: oa_dummy_dir.png
+.. image:: oa_dumy_dir.png
 
 
 Eclipse
