@@ -53,6 +53,15 @@ The CloupaScript framework allows you to create custom task (based around JavaSc
 What is Open Automation?
 ------------------------
 
-While the use of CloudpiaScripts and the Powershell agent makes UCS Director a big flexibe tool its southbound capabiliites don't end there, it also has the concept of 'Open Automation'. This can be used to make 3rd party devices look like they are nativly supported by UCSD by allowing you to collect and display data, alter menus availble, APIs and much more.
+While the use of CloudpiaScripts and the Powershell agent makes UCS Director a big flexibe tool its southbound capabiliites don't end there, it also has the concept of 'Open Automation'. This can be used to make 3rd party devices look like they are nativly supported by UCSD by allowing you to;
+
+* develop reports and report actions
+* inventory devices
+* track changes made to the system through the module
+* develop task that can be used for workflows
+* develop and scheulde repeatable tasks
+* set up new resource limits
 
 Open Automation is in essance a Java SDK that can be used to create a connector/plug-in that can be imported into UCSD.
+
+The official Cisco documentation (always improving) for this can be found `here <http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-programming-reference-guides-list.html>`_.
