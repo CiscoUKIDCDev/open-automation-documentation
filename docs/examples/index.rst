@@ -21,18 +21,4 @@ LIst of examples that have been created by the community (or other vendors). The
 +-----------+---------------------+--------------+-----------------------------------------------------+
 
 
-
-
-
-+---------------------------------------+-------------------------------------------------------+
-| CP Font from LiquiType:               | http://www.liquitype.com/workshop/type_design/cp-mono |
-+---------------------------------------+-------------------------------------------------------+
-| Magnetic Balls V2 image by fdecomite: | http://www.flickr.com/photos/fdecomite/2926556794/    |
-+---------------------------------------+-------------------------------------------------------+
-| Sponsored by Net Managers             | http://www.netmanagers.com.ar                         |
-+---------------------------------------+-------------------------------------------------------+
-| Typeset using rst2pdf                 | http://rst2pdf.googlecode.com                         |
-+---------------------------------------+-------------------------------------------------------+
-
-
 Other comersial plugins are availbe however these will not be tracked here.
