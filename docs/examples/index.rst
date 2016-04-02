@@ -3,6 +3,8 @@ Example Plugins
 
 LIst of examples that have been created by the community (or other vendors). These are great ways to learn how others have build plugins (best way to learn in my eyes)
 
+.. class:: plugin-table
+
 +-----------+---------------------+-----------+-------------------------------+
 | Plugin    | Description         | Creator   | Location                      |
 +===========+=====================+===========+===============================+
