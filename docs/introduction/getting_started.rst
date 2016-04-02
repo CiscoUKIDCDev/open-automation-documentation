@@ -25,21 +25,25 @@ The first think to do is `download Eclipse <https://eclipse.org/downloads/>`_ fo
 
 .. image:: eclipse_dl.png
 
+
 Once downloaded follow the instalation instruction, we won't go through these here.
 
 Now you should download the UCS Director Dummy Plugin for your version from `Cisco CCO <https://software.cisco.com/download/release.html?mdfid=286290596&softwareid=285018084&release=5&relind=AVAILABLE&rellifecycle=&reltype=latest>`_. The file that you are looking for is `cucsd-open-automation-sdk-bundle-<ver>.zip`.
 
 .. image:: oa_dl.png
 
+
 The download will contain two zip's
 
 .. image:: zip_files.png
+
 
 The first is the sample, or dummy, open automation code while the second is the Javadocs that we will use to enhance Eclipse.
 
 If you unzip and browse the 'sample' zip you should see something similar to this;
 
 .. image:: oa_dummy_dir.png
+
 
 Eclipse
 ~~~~~~~
