@@ -3,7 +3,7 @@ Example Plugins
 
 LIst of examples that have been created by the community (or other vendors). These are great ways to learn how others have build plugins (best way to learn in my eyes)
 
-..
+.. ::
 
 +-----------+---------------------+-----------+-------------------------------+
 | Plugin    | Description         | Creator   | Location                      |
@@ -23,7 +23,7 @@ LIst of examples that have been created by the community (or other vendors). The
 
 
 
-.. class:: tablacreditos
+
 
 +---------------------------------------+-------------------------------------------------------+
 | CP Font from LiquiType:               | http://www.liquitype.com/workshop/type_design/cp-mono |
