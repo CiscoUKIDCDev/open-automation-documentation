@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Open Automation'
-copyright = u'2016, Rob Edwards, Matt Day, Russ Whitear'
+copyright = u'2016, Russ Whitear, Matt Day, Rob Edwards'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
